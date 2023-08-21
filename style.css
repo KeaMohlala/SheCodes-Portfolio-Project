@@ -1,0 +1,39 @@
+body {
+  margin: 40px auto;
+  max-width: 800px;
+}
+.hero {
+  text-align: center;
+}
+.homepage-intro {
+  background: #f5f2fe;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.homepage-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: monospace;
+}
+img {
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+}
+:root {
+  --primary-color: #ffc1c8;
+  --secondary-color: #ffe3b0;
+  --fontweight: 900;
+}
+h1 {
+  font-size: 60px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-weight: var(--fontweight);
+}
+h2 {
+  font-size: 40px;
+  opacity: 0.4;
+  font-weight: var(--fontweight);
+}
