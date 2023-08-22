@@ -1,6 +1,7 @@
 body {
   margin: 40px auto;
   max-width: 800px;
+  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 .hero {
   text-align: center;
