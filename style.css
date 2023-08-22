@@ -32,11 +32,13 @@ h1 {
   color: var(--primary-color);
   background-color: var(--secondary-color);
   font-weight: var(--fontweight);
+  font-family: "Roboto Mono", monospace;
 }
 h2 {
   font-size: 40px;
   opacity: 0.4;
   font-weight: var(--fontweight);
+  font-family: "Courgette", cursive;
 }
 .img-fluid {
   max-width: 100%;
