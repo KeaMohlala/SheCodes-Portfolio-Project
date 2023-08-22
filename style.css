@@ -43,6 +43,10 @@ h2 {
   height: auto;
 }
 @media (max-width: 900px) {
-  body {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 25px;
   }
 }
