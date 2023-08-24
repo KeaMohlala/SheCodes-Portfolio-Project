@@ -52,6 +52,13 @@ h2 {
   h2 {
     font-size: 25px;
   }
+  .navigation-links a {
+    padding: 5px 10px;
+  }
+  .navigation-link a,
+  .pitch-video-link {
+    padding: 10px 15px;
+  }
 }
 .homepage-links a {
   text-decoration: none;
@@ -100,7 +107,8 @@ h2 {
   justify-content: flex-start;
 }
 
-.navigation-links a {
+.navigation-links a,
+.navigation-link a {
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
@@ -108,7 +116,8 @@ h2 {
   text-transform: capitalize;
 }
 
-.pitch-video-link {
+.video-link,
+.weather-app-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -119,18 +128,6 @@ h2 {
   border: 1px solid var(--primary-color);
 }
 
-.navigation-link a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-.weather-app-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
 .pitch-video-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
