@@ -26,6 +26,7 @@ img {
   --primary-color: #ffc1c8;
   --secondary-color: #ffe3b0;
   --fontweight: 900;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 h1 {
   font-size: 60px;
@@ -58,7 +59,7 @@ h2 {
   cursor: pointer;
 }
 
-.bio-header h1 {
+.content-header h1 {
   font-size: 35px;
   text-align: center;
   color: var(--primary-color);
@@ -66,7 +67,7 @@ h2 {
   font-weight: var(--fontweight);
   font-family: "Roboto Mono", monospace;
 }
-.bio-header h2 {
+.content-header h2 {
   text-align: center;
   font-size: 25px;
   opacity: 0.4;
@@ -87,4 +88,46 @@ h2 {
 }
 .bio-content {
   padding: 10px 10px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.pitch-video-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.slide-deck-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.navigation-link a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.weather-app-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.bio-content p {
+  font-size: 15px;
 }
