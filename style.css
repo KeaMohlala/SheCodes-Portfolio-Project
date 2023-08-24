@@ -127,6 +127,13 @@ h2 {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.pitch-video-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
 
 .portfolio-content p {
   font-size: 15px;
