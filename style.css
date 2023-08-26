@@ -1,5 +1,5 @@
 body {
-  margin: 40px auto;
+  margin: 20px auto;
   max-width: 800px;
   background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
@@ -158,4 +158,7 @@ h2 {
 }
 .contact-info a:hover {
   color: var(--primary-color);
+}
+.GitHub-link {
+  font-size: 13px;
 }
